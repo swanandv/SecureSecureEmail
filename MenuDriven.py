@@ -2,6 +2,10 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import getpass
+import email
+import imaplib
+from email.header import decode_header
+from email import message
 
 print("---Login to SecureSecureEmail---")
 email = input("Enter EmailID:")
@@ -52,15 +56,20 @@ if choice=='3':
 
 	if flag==1:
 		print("Key request sent!")
-		print("Key will be recieved wheneven requested party opens the request")
+		print("Key will be recieved whenever requested party opens the request")
 
 	#### Logic to store recieved key=>
 	# 
 	# 	
 
 
+
+
 #### Choice 2 Inbox
-###if choice == '2':
+#if choice == '2':
+
+
+
 
 
 ### Choice 3 Send mail
