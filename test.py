@@ -6,6 +6,8 @@ from email import message
 
 username='bob.ca2.paul@gmail.com'
 password='bobpassword'
+
+
 M = imaplib.IMAP4_SSL("imap.gmail.com")
 # authenticate
 M.login(username, password)
