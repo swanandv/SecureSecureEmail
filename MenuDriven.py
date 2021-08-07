@@ -14,11 +14,6 @@ print("---Login to SecureSecureEmail---")
 em = input("Enter EmailID:")
 passwd =  getpass.getpass("Enter Password:")
 
-#em = "bob.ca2.paul@gmail.com"
-#passwd = "bobpassword"
-#em = "alice.ca2.paul@gmail.com"
-#passwd = "alicepassword"
-
 #print(em+" "+passwd)
 
 
