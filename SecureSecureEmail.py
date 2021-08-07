@@ -83,7 +83,7 @@ if choice=='3':
 		message = MIMEMultipart()
 		message['From'] = em
 		message['To'] = rec_email
-		message['Subject'] = 'SEND PUB KEY'
+		message['Subject'] = "SEND PUB KEY"
 		msg = open("Keys/public.pem").read()
 		message.attach(MIMEText(msg, 'plain'))
 		text = message.as_string()
