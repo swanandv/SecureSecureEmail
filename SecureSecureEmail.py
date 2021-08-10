@@ -11,12 +11,10 @@ from Crypto.Random import get_random_bytes
 from Crypto.Cipher import AES, PKCS1_OAEP
 
 print("---Login to SecureSecureEmail---")
-#em = input("Enter EmailID:")
-#passwd =  getpass.getpass("Enter Password:")
+em = input("Enter EmailID:")
+passwd =  getpass.getpass("Enter Password:")
 
 #print(em+" "+passwd)
-em = "bob.ca2.paul@gmail.com"
-passwd = "bobpassword"
 
 
 ## Provide email and password to api to create session
