@@ -41,7 +41,7 @@ while(True):
 
 	print(menu)
 
-	choice = input("Enter Choice:")
+	choice = input("\nEnter Choice:")
 
 
 	####### Generate PU PR key pair using RSA
@@ -210,7 +210,6 @@ while(True):
 			yn = input("Entered Email is not in your Contacts. Send Key Exchange Request (Y/N)?")
 			if yn == "Y" or yn == "y": 
 				##Send request of Pub key
-				rec_email = input("Enter Receiver's Emailid:")
 				message = MIMEMultipart()
 				message['From'] = em
 				message['To'] = rec_email
