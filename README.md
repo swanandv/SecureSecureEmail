@@ -13,11 +13,11 @@ After that, run the script using python.
 
 > python SecureSecureEmail.py 
 
-Step1: Create the Keys for yourself using option no 4.
+Step1: Create the Keys for yourself using option 4. (Do this step only while running the script very first time.)
 
-Step2: Send Email. Enter the recipient's email-id. If the key of the recipient is already in Contacts folder then it will run smooth. If not, it will send key request to the recipient.
+Step2: Do '1. Send Email'. Enter the recipient's email-id. If the key of the recipient is already in Contacts folder then it will run smooth. If not, it will send key request to the recipient.
 
-Step3: If you see in your Inbox the email with subject- "PUB KEY" then you have recieved Public Key of the person you sent request to. You can save this key using option 3. Key Exchange.
+Step3: If you see in your Inbox the email with subject- "FIN KEY XCH" then you have recieved Public Key of the person you sent request to. You can save this key using option '3. Key Exchange'. (Use '3.Key Exchange' if you see subjects- "SEND PUB KEY" or "FIN KEY XCH". Script will take care of key exchange by itself.)
 
 Step4: By this point, Key Exchange have been completed. Both the parties can exchange emails.
 
