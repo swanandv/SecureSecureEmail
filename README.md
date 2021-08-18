@@ -1,6 +1,13 @@
 # SecureSecureEmail
 Python app to send emails using Gmail, encrypted with AES. 
 
+Installation Required :
+https://pycryptodome.readthedocs.io/en/latest/src/installation.html
+
+Extra Requirement:
+On Gmail -> Go to settings -> Allow access to less secure apps -> On
+
+
 After getting the script on the machine, create two folders in the same folder from where you will run the program.
 Folder names should be as follows (Case-Sensitive):
 1. Keys
@@ -20,6 +27,9 @@ Step2: Do '1. Send Email'. Enter the recipient's email-id. If the key of the rec
 Step3: If you see in your Inbox the email with subject- "FIN KEY XCH" then you have recieved Public Key of the person you sent request to. You can save this key using option '3. Key Exchange'. (Use '3.Key Exchange' if you see subjects- "SEND PUB KEY" or "FIN KEY XCH". Script will take care of key exchange by itself.)
 
 Step4: By this point, Key Exchange have been completed. Both the parties can exchange emails.
+
+
+
 
 
 
