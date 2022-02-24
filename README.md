@@ -1,5 +1,6 @@
 # SecureSecureEmail
 Python app to send emails using Gmail, encrypted with AES. 
+Please check out the blog for detailed explanation: https://medium.com/@swanand.vartak/python-script-to-send-emails-using-gmail-encrypted-with-aes-b14e563ea227
 
 Installation Required :
 https://pycryptodome.readthedocs.io/en/latest/src/installation.html
